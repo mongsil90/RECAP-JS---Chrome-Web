@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jack's Page</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js" defer></script>
+    <script src="js/clock.js" defer></script>
+    <script src="js/login.js" defer></script>
+    <script src="js/quote.js" defer></script>
+    <script src="js/background.js" defer></script>
+    <script src="js/todo.js" defer></script>
+    <title>Jack's Page</title>
 </head>
 <body>
+    <h1 id="clock"></h1>
     <form id="login-form" class="hidden">
-        <input 
-            type="text" 
-            placeholder="Write your name"
-            id="login-input"
-            required
-            maxlength="15"
-            />
-        <button id="login-button">Log In</button>
+        <input type="text" placeholder="Write your name!" required max="15"/>
+        <button>Log In</button>
     </form>
     <h1 id="greeting" class="hidden"></h1>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <form id="todo-form">
+        <input type="text" placeholder="Write To Do"/>
+    </form>
+    <ul id="todo-list"></ul>
 </body>
 </html>
