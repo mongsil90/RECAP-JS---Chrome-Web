@@ -1,4 +1,3 @@
-// html 불러오기
 const logInForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-input");
 const greetingText = document.querySelector("#greeting");
