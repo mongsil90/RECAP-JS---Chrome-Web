@@ -13,11 +13,4 @@ img {
     z-index: -1;
     opacity: 80%;
     object-fit: cover;
-<<<<<<< HEAD
-    filter: brightness(0.8);
-};
-
-=======
-    filter: brightness(0.5);
-};
->>>>>>> f9e70787eb252b963c89ac7ea788e3456e0ff6d7
+}
